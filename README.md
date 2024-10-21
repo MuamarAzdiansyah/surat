@@ -22,7 +22,7 @@ Sebelum memulai, pastikan Anda telah menginstal:
 Siapkan file konfigurasi Docker:
 
 ## Docker-compose
-Pastikan Anda memiliki file docker-compose.yml di dalam direktori aplikasi. Jika tidak ada, Anda bisa membuatnya dengan konfigurasi yang sesuai.
+Pastikan Anda memiliki file `docker-compose.yml` di dalam direktori aplikasi. Jika tidak ada, Anda bisa membuatnya dengan konfigurasi yang sesuai.
 
 ```yaml
 version: "3"
