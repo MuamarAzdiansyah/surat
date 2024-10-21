@@ -24,6 +24,7 @@ Siapkan file konfigurasi Docker:
 
 Pastikan Anda memiliki file docker-compose.yml di dalam direktori aplikasi. Jika tidak ada, Anda bisa membuatnya dengan konfigurasi yang sesuai.
 
+'''bash
 version: "3"
 services:
   app:
