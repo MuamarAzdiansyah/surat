@@ -64,14 +64,11 @@ networks:
     driver: bridge
 
 ## Cara Menggunakan
-Setelah aplikasi berjalan, akses aplikasi melalui browser Anda di http://localhost:8080 (atau port yang Anda tentukan dalam file docker-compose.yml).
+Setelah aplikasi berjalan, akses aplikasi melalui browser Anda di [http://localhost:8080](http://localhost:8080) (atau port yang Anda tentukan dalam file `docker-compose.yml`).
 
 ## Cara Deploy
 Untuk membangun dan menjalankan aplikasi, gunakan perintah berikut:
 
-  docker-compose up -d
+```bash
+docker-compose up -d
 
-Perintah ini akan mengunduh image yang diperlukan dan menjalankan kontainer di latar belakang.
-Jika Anda perlu menghentikan kontainer, gunakan:
-
-docker-compose down
