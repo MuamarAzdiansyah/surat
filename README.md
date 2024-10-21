@@ -26,6 +26,7 @@ Siapkan file konfigurasi Docker:
 ## Docker-compose
 Pastikan Anda memiliki file docker-compose.yml di dalam direktori aplikasi. Jika tidak ada, Anda bisa membuatnya dengan konfigurasi yang sesuai.
 
+```yaml
 version: "3"
 services:
   app:
@@ -64,10 +65,10 @@ networks:
   surat_network:
     driver: bridge
 
-#Cara Menggunakan
+# Cara Menggunakan
 Setelah aplikasi berjalan, akses aplikasi melalui browser Anda di http://localhost:8080 (atau port yang Anda tentukan dalam file docker-compose.yml).
 
-#Cara Deploy
+# Cara Deploy
 Untuk membangun dan menjalankan aplikasi, gunakan perintah berikut:
 
   docker-compose up -d
