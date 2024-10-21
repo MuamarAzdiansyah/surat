@@ -5,6 +5,7 @@ Aplikasi e-Offices adalah sistem manajemen dokumen yang dibangun menggunakan PHP
 ## Daftar Isi
 - [Prasyarat](#prasyarat)
 - [Instalasi](#instalasi)
+- [Docker-compose](#docker-compose)
 - [Cara Menggunakan](#cara-menggunakan)
 - [Cara Deploy](#cara-deploy)
 - [Kontribusi](#kontribusi)
@@ -22,9 +23,9 @@ Sebelum memulai, pastikan Anda telah menginstal:
 
 Siapkan file konfigurasi Docker:
 
+## Docker-compose
 Pastikan Anda memiliki file docker-compose.yml di dalam direktori aplikasi. Jika tidak ada, Anda bisa membuatnya dengan konfigurasi yang sesuai.
 
-'''bash
 version: "3"
 services:
   app:
