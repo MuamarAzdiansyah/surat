@@ -71,4 +71,3 @@ Untuk membangun dan menjalankan aplikasi, gunakan perintah berikut:
 
 ```bash
 docker-compose up -d
-
